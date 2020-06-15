@@ -1,0 +1,1 @@
+﻿var proj = app.project;var effects = proj.activeSequence.videoTracks[0].clips[0].components;alert(effects[1].properties[0].getValue());//effects[1].properties[0].setValue([ 0.4,0.2],true);
